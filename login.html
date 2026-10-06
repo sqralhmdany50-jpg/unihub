@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>تسجيل الدخول | UniHub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="login-page">
+    <div class="login-card">
+        <div class="brand big">🎓 UniHub</div>
+        <h1>مرحباً بك</h1>
+        <form id="loginForm">
+            <label>الاسم الكامل</label>
+
+            <input id="loginName" type="text" required placeholder="ادخل اسمك   " pattern="[a-zA-Z\s\u0600-\u06FF]+"
+                title="ارجا ادخال حروف فقط">
+            <label>الرقم الجامعي</label>
+
+            <input id="loginId" type="number" required placeholder="ادخل الرقمك الجامعي">
+            <label>التخصص</label>
+            <input id="loginMajor" type="text" required placeholder="اسم التخصص" pattern="[a-zA-Z\s\u0600-\u06FF]+"
+                title="ارجا ادخال حروف فقط">
+
+
+            <button class="btn primary full">دخول المنصة</button>
+        </form>
+        <a href="index.html" class="back">← العودة</a>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
